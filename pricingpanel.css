@@ -1,0 +1,169 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+
+body {
+    /* I remove the                 // This is Yandi's comment.
+    display: flex;
+    para di masali ang contact section sa flex*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #e6e9ec;
+
+
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;
+
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+
+
+
+
+
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.pricing-features {
+    margin: 50px 0 25px;
+    color: #016ff9;
+
+}
+
+.pricing-features-items {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 2px solid #e1f1ff;
+}
+
+
+.pricing-features-items:last-child {
+    border-bottom: 2px solid #e1f1ff;
+}
+
+.pricing-price {
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700px;
+
+}
+
+.pricing-button {
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+    
+
+
+
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+    background-color: #e1f1ff;
+    border-color: blue;
+
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
+    background-color:cadetblue;
+    color :white;
+
+}
+
+@media (min-width:900px) {
+    .panel {
+        flex-direction: row;
+    }
+}
+
+.pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+
+}
+
+.pricing-plan:last-child {
+    border-right: none;
+}
+
+/*Contact Us section*/
+
+.contact{
+    background-color: white;
+    text-align: center;
+    margin: 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.contact .contact-us-header{
+    color: black;
+    align-items: center;
+    font-size: 30px;
+}
+.contact-card img h4 p{
+    justify-content: center;
+}
+.contact-card img {
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+.contact-card h4 p {
+    color: black;
+    list-style: none;
+}
+.contact-card {
+    display: inline-block;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+}
+/* End Contact Us section */
